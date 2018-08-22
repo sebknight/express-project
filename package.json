@@ -4,12 +4,21 @@
   "description": "express project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon -L app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebknight/express-project.git"
   },
   "keywords": [
     "express",
     "nodejs"
   ],
   "author": "sebastian maddox",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.4.0",
+    "express": "^4.16.3"
+  }
 }
